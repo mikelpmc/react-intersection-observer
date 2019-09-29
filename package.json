@@ -2,7 +2,7 @@
   "name": "react-observer-component",
   "version": "1.0.0",
   "description": "React Intersection Observer Component",
-  "main": "src/index.js",
+  "main": "build/observer.js",
   "scripts": {
     "start": "webpack-dev-server --content-base dist/ --colors --progress",
     "build": "webpack",
