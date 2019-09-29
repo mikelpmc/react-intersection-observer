@@ -15,16 +15,13 @@ import React from 'react';
 import Observer from 'react-observer-component';
 
 const MyComponent = () => {
-    return (
-        <Observer>
-            {({ isInView, ref }) => {
-                <div ref={ref}>
-                    <h1>Intersection observer</h1>
-                    {isInView && <p>Only shows when is in viewport<p>}
-                </div>
-            }}
-        </Observer>
-    )
+  return (
+    <Observer>
+      {({ isInView, ref }) => {
+        return <div ref={ref}>{isInView && <p>Only shows when is in viewport!</p>}</div>;
+      }}
+    </Observer>
+  );
 };
 ```
 
