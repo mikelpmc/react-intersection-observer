@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "React Intersection Observer Component",
   "main": "build/observer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikelpmc/react-intersection-observer.git"
+  },
   "scripts": {
     "start": "webpack-dev-server --content-base dist/ --colors --progress",
     "build": "webpack",
