@@ -2,6 +2,8 @@
 
 React component that uses the Intersection observer API.
 
+[Codesandbox demo](https://codesandbox.io/embed/react-observer-component-14hrj)
+
 #### Getting started
 
 ```shell
