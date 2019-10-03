@@ -27,4 +27,6 @@ const MyComponent = () => {
 };
 ```
 
+#### [Browser support](https://caniuse.com/#feat=mdn-api_intersectionobserver)
+
 ##### Author: Mikel Parra <mikelpmc@gmail.com> | <http://github.com/mikelpmc>
